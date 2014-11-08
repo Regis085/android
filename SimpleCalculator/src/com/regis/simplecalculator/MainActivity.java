@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends Activity {
-
+// Classe  Principal
 	EditText visor;
 	private String numeroAtual = "";
 	private String numeroArmazenado = "";
