@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.regis.simplecalculator.MainActivity" >
+
+    <EditText
+        android:id="@+id/visor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/ButtonSete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_sete" />
+
+            <Button
+                android:id="@+id/ButtonOito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_oito" />
+
+            <Button
+                android:id="@+id/ButtonNove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_nove" />
+
+            <Button
+                android:id="@+id/ButtonDivisao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="operacao_click"
+                android:text="@string/botao_divide" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/ButtonQuatro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_quatro" />
+
+            <Button
+                android:id="@+id/ButtonCinco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_cinco" />
+
+            <Button
+                android:id="@+id/ButtonSeis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_seis" />
+
+            <Button
+                android:id="@+id/ButtonMultiplicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="operacao_click"
+                android:text="@string/botao_multiplica" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/ButtonUm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_um" />
+
+            <Button
+                android:id="@+id/ButtonDois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_dois" />
+
+            <Button
+                android:id="@+id/ButtonTres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_tres" />
+
+            <Button
+                android:id="@+id/ButtonSubtracao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="operacao_click"
+                android:text="@string/botao_subtrai" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/ButtonZero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="numero_click"
+                android:text="@string/botao_zero" />
+
+            <Button
+                android:id="@+id/ButtonClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clear_click"
+                android:text="@string/botao_limpar" />
+
+            <Button
+                android:id="@+id/ButtonIgual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/botao_igual" 
+                android:onClick="resultado_click"/>
+
+            <Button
+                android:id="@+id/ButtonSoma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="operacao_click"
+                android:text="@string/botao_soma" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="botao_zero">0</string>
+    <string name="botao_um">1</string>
+    <string name="botao_dois">2</string>
+    <string name="botao_tres">3</string>
+    <string name="botao_quatro">4</string>
+    <string name="botao_cinco">5</string>
+    <string name="botao_seis">6</string>
+    <string name="botao_sete">7</string>
+    <string name="botao_oito">8</string>
+    <string name="botao_nove">9</string>
+    <string name="botao_limpar">C</string>
+    <string name="botao_igual">=</string>
+    <string name="botao_soma">+</string>
+    <string name="botao_subtrai">-</string>
+    <string name="botao_multiplica">*</string>
+    <string name="botao_divide">/</string>
+
+</resources>
